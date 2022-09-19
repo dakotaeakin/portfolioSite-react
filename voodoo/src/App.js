@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
-import Hero from "./components/Hero";
 
 function App() {
   return (

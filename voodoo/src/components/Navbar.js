@@ -1,8 +1,7 @@
 import React from "react";
 
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   {
@@ -26,10 +25,10 @@ const navigation = [
   // { name: "Calendar", href: "#", current: false },
 ];
 
-function checkActivePage() {
-  const location = window.location.pathname;
-  console.log(window.location.pathname);
-}
+// function checkActivePage() {
+//   const location = window.location.pathname;
+//   console.log(window.location.pathname);
+// }
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -61,7 +60,7 @@ export default function Example() {
                       <a
                         key={item.name}
                         href={item.href}
-                        {...(item.currentPage == item.href
+                        {...(item.currentPage === item.href
                           ? (item.current = true)
                           : (item.current = false))}
                         className={classNames(

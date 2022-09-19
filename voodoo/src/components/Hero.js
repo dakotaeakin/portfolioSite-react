@@ -10,6 +10,7 @@ function Hero() {
         <img
           src={comp1}
           className="min-h-screen min-w-[800px] shadow-lg lg:rounded-xl z-0"
+          alt=""
         />
         <div className="flex justify-center">
           <div
@@ -24,8 +25,8 @@ function Hero() {
               </p>
               {/* <p className="pb-2">Email [email popup on click]</p> */}
               <div className="flex justify-center pb-8">
-                <img className="h-10 w-10" src={github} />
-                <img className="h-10  pl-8" src={linkedin} />
+                <img className="h-10 w-10" src={github} alt="" />
+                <img className="h-10  pl-8" src={linkedin} alt="" />
               </div>
             </div>
           </div>
