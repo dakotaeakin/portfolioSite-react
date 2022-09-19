@@ -2,6 +2,7 @@
   "name": "silvercrown",
   "version": "0.1.0",
   "private": true,
+  "force-start": "TSX_COMPILE_ON_ERROR=true ESLINT_NO_DEV_ERRORS=true react-scripts start",
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "@testing-library/jest-dom": "^5.16.2",
