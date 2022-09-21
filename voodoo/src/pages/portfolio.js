@@ -11,17 +11,13 @@ const Portfolio = () => {
       description: `This project uses NextJS, Tailwind CSS, and Firebase. 
       I started this project on 9/16/22 and I am still working to add features and improve the sites looks 
       My plans for the site are to make a clone of the 
-      Boost Mobile my account dashboard. For now its a barebones login page that 
-      uses Firebase for authentication. You can create an account and then login
-      the authentication state is carried to every page of the site. The site also uses 
-      Firestore from Firebase to store user data such as first as last name which is 
+      Boost Mobile my account dashboard. For now its fairly barebones. You can create an account and then login
+      and the authentication state is carried to every page of the site. The site also uses 
+      Firestore from Firebase to store user data such as first and last name which is 
       collected on account creation. I am currently working on adding the ability for 
-      a user to sign out, change all their user info, and delete their account. You
+      a user to change all their user info and delete their account. You
       can use a fake email to test the site as long as it is formatted as an email address 
-      and the only password constraint currently in place is it must be at least 6 digits. 
-      please also note that currently I'm focusing on the backend functionality of the site 
-      and will work on improving the looks of the site once the base functionality is done 
-      so its not the prettiest site at the moment.`,
+      and the only password constraint currently in place is that it must be at least 6 digits.`,
       link: "https://melodic-sunburst-e467da.netlify.app",
       imageSize: "h-96 w-96 rounded-xl",
     },
