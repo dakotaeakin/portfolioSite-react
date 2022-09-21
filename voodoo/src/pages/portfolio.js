@@ -17,7 +17,10 @@ const Portfolio = () => {
       collected on account creation. I am currently working on adding the ability for 
       a user to sign out, change all their user info, and delete their account. You
       can use a fake email to test the site as long as it is formatted as an email address 
-      and the only password constraint currently in place is it must be at least 6 digits.`,
+      and the only password constraint currently in place is it must be at least 6 digits. 
+      please also note that currently I'm focusing on the backend functionality of the site 
+      and will work on improving the looks of the site once the base functionality is done 
+      so its not the prettiest site at the moment.`,
       link: "https://melodic-sunburst-e467da.netlify.app",
       imageSize: "h-96 w-96 rounded-xl",
     },
