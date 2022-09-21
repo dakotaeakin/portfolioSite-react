@@ -9,7 +9,8 @@ const Portfolio = () => {
       title: "Site Clone",
       thumbnail: best,
       description: `This project uses NextJS, Tailwind CSS, and Firebase. 
-      I'm currently working on this project and plan to make a clone of the 
+      I started this project on 9/16/22 and I am still working to add features and improve the sites looks 
+      My plans for the site are to make a clone of the 
       Boost Mobile my account dashboard. For now its a barebones login page that 
       uses Firebase for authentication. You can create an account and then login
       the authentication state is carried to every page of the site. The site also uses 
