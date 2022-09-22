@@ -35,6 +35,7 @@ function Hero() {
                 <a
                   href="https://www.linkedin.com/in/dakota-eakin-0a782713b/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img className="h-10  pl-8" src={linkedin} alt="" />
                 </a>
