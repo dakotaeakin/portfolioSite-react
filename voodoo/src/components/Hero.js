@@ -25,7 +25,11 @@ function Hero() {
               </p>
               {/* <p className="pb-2">Email [email popup on click]</p> */}
               <div className="flex justify-center pb-8">
-                <a href="https://github.com/xhellcat1942x" target="_blank">
+                <a
+                  href="https://github.com/xhellcat1942x"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img className="h-10 w-10" src={github} alt="" />
                 </a>
                 <a
