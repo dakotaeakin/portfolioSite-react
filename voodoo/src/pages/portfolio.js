@@ -29,6 +29,20 @@ const Portfolio = () => {
       link: "https://github.com/xhellcat1942x",
       imageSize: "",
     },
+    {
+      title: "Weather Engine for Microsoft Flight Simulator 2020",
+      thumbnail: github,
+      description: `This project uses vanilla javascript, html, CSS, to interact with the simulators user interface 
+        and weather engine. It is based on freeware that was released when the simulator came out 
+        and has since been broken by changes to the simulators weather engine. Currently I am working 
+        to fix the weather injection functionality, once it is fixed live weather data will be pulled from a 
+        REST api provided by avwx then injected into the simulator at user selectable intervals. 
+        Unfortunatly much of the old code is no longer usable and will need completly rewritten. 
+        Once the live weather functionality is restored I also plan to add the ability to inject historical data 
+        from a user selectable date and time.`,
+      link: "https://github.com/xhellcat1942x/weatherV2",
+      imageSize: "",
+    },
   ];
 
   return (
