@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioItem(props) {
   return (
-    <div className="bg-gray-700 w-fit h-fit max-w-[50%] shadow-lg rounded-xl">
+    <div className="bg-gray-700 w-fit h-fit max-w-[50%] min-w-[400px] shadow-lg rounded-xl m-4">
       <div className="p-8">
         <div className="flex flex-col items-center">
           <p className="pb-4">{props.title}</p>

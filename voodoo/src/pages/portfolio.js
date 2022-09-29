@@ -35,7 +35,7 @@ const Portfolio = () => {
     <div className="bg-gray-800 h-screen">
       <div className="pt-10 h-fit bg-gray-800 text-gray-300 text-2xl text-center font-medium rounded-lg">
         <p>Hey there, check out some of my projects below!</p>
-        <div className="flex justify-center space-x-10 p-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-10 p-8">
           {portfolioItems.map((item) => (
             <PortfolioItem
               title={item.title}
